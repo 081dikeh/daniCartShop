@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;600&display=swap');
+
+
+.shop {
+    width: 100%;
+    padding: 3rem 0 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.shop-title p {
+    font-size: 50px;
+    font-weight: 900;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 7rem;
+}
+
+.product {
+    gap: 2rem;
+}
+.product img {
+    width: 300px;
+    height: auto;
+    flex-basis: 30%;
+    display: block;
+}
+.addToCart {
+    border: 2px solid #000;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 100vh;
+    padding: 10px;
+}
+.addToCart:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
